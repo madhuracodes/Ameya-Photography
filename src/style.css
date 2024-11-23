@@ -1,0 +1,212 @@
+body {
+  font-family: "Poppins";
+  background-color: #272044;
+}
+main {
+  background-color: white;
+}
+main h2 {
+  ont-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
+}
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.7;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+.instagram-embed {
+  width: 100%;
+  max-width: 500px; /* or your desired size */
+  height: auto; /* maintains aspect ratio */
+}
+
+.grid-column-2 {
+  grid-template-columns: 1fr 1fr;
+}
+.grid-3column-uneven {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+.grid-column-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
+}
+.img-reponsive {
+  max-width: 100%;
+  display: block;
+}
+.card {
+  background-color: white;
+  margin-top: 50px 0;
+}
+.card-body {
+  padding: 30px;
+}
+.card h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+.card h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+.btn {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.5;
+  background-color: #462cb3;
+  padding: 16px;
+}
+header {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/landscape3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 200px 0;
+}
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+}
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+  margin: 30px 0;
+}
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: white;
+  color: #272044;
+  text-decoration: none;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+}
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+footer {
+  color: white;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url(../images/footer-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+ul {
+  list-style: none;
+  color: white;
+  padding-left: 0px;
+}
+footer a {
+  color: white;
+}
+footer p {
+  opacity: 0.6;
+  font-size: 16px;
+}
+
+i {
+  font-size: 18px;
+}
+li p {
+}
+li a {
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+@media (max-width: 800px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 30px;
+  }
+}
+section.secondary {
+  background-color: #f8f8f8;
+}
+.text-center {
+  text-align: center;
+}
