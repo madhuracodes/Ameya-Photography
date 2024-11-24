@@ -22,7 +22,6 @@ main h3 {
   line-height: 1.5;
   color: #272044;
   margin: 0;
-    text-transform: uppercase;
 
 }
 main p {
@@ -116,6 +115,8 @@ header h3 {
   line-height: 1.5;
   letter-spacing: 5px;
   margin: 0;
+    text-transform: uppercase;
+
 }
 header h1 {
   font-weight: 700;
