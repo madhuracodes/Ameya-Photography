@@ -13,7 +13,8 @@ main h2 {
   letter-spacing: 5px;
   color: #272044;
   opacity: 0.3;
-  text-transform: uppercase;
+    text-transform: uppercase;
+
 }
 main h3 {
   font-weight: 700;
@@ -21,6 +22,8 @@ main h3 {
   line-height: 1.5;
   color: #272044;
   margin: 0;
+    text-transform: uppercase;
+
 }
 main p {
   font-style: normal;
